@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+  padding: 1em;
+  display: grid;
+  grid-gap: 1em;
+}
+
+.filter-input {
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.add-movie-input {
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.filter-list {
+  list-style-type: none;
+  display: grid;
+  grid-gap: 0.5em;
+  text-align: center;
+}
+
+.filter-list li {
+  background-color: #666;
+  padding: 0.5em;
+}
+
+.filter-list li:hover {
+  background-color: rgb(148, 148, 148);
+  cursor: pointer;
+}
+
+.filter-list li a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+.new-item {
+  background-color: #666;
+  padding: 0.5em;
+  color: #f7f7f7;
+}
+
+.new-item:hover {
+  background-color: rgb(148, 148, 148);
+  cursor: pointer;
+}
